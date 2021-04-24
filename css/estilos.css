@@ -32,7 +32,6 @@ valores
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -60,7 +59,7 @@ h1,h2,h3,h4,h5,h6
   font-weight: normal;
 }
 h1 {
-  font-height: 1.5%;
+  font-weight: 1.5%;
   font-size: 40px;
   font-weight: 900;
   letter-spacing: -0.2px;
@@ -159,12 +158,12 @@ position: relative;
 
 .project-tittle {
   font-size: 30px;
-  margin-bottom: ; 10px 0;
+  margin-bottom:  10px 0;
   margin-top: 0;
 }
 
 .project-course, .projecto-date, .project-url {
-  margin 10px 0;
+  margin: 10px 0;
 }
 .project-description {
   font-size: 20px;
@@ -392,7 +391,7 @@ figure {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  weight: inherit;
+  font-weight: inherit;
   flex-wrap: inherit;
   /* padding: 0 1em; */
 }
@@ -586,3 +585,4 @@ font-size: 1em;
        padding: 1em 2em;
      }
     }
+  }
